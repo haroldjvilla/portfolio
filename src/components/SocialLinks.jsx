@@ -51,7 +51,7 @@ function SocialLinks() {
   ];
 
   return (
-    <div className="hidden lg:flex flex-col top-[35%] left-0 fixed rounded-md">
+    <div className=" lg:flex flex-col sm:top-[35%] left-0 fixed rounded-md top-[70%]">
       <ul>
         {links.map(({ id, child, href, style, download }) => (
           <li
