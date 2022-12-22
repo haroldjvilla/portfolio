@@ -15,8 +15,9 @@ function Home() {
             I'm a Frontend Developer
           </h2>
           <p className="text-gray-500 py-4 ">
-            I'm passionate about design and I believe that in design Less is more, I love to work on web application using
-            technologies like React and Tailwind.
+            I'm passionate about design, where less is more and code. I love to
+            work on web applications using technologies like React and Tailwind.
+            CTA -> Check my portfolio
           </p>
 
           <div>

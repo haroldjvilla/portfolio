@@ -14,20 +14,20 @@ function About() {
         </div>
 
         <p className="text-xl mt-20">
-          I define myself as a person who likes to keep learning and keep
-          updated with what is new in the market, currently a development and
-          programming student through a company called prospercity from
-          colombia. I have 7 months of experience building and desgining
-          software. Currently,
+          I am a person who loves to keep learning and stay on top of the latest
+          trends in the software development industry. I'm studying and refining
+          my programming skills through a company called Prosperity where we
+          learn through real-life agile environments just as the industry works.
+          I have seven months of experience building and designing software.
+          Currently,
         </p>
 
         <br />
 
         <p className="text-xl ">
-          My short-term goals is to find a company that allows me to apply all
-          the knowledge acquired in my learning process at Prospercity, and to
-          have the opportunity to continue learning both from my own experience
-          and that of my colleagues.
+          I'm looking for a company to apply all the knowledge acquired in my
+          learning process at Prospercity, and to have the opportunity to
+          continue learning from my own and my colleagues experience.
         </p>
       </div>
     </div>

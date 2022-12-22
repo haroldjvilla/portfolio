@@ -29,13 +29,13 @@ function Portfolio() {
       id: 4,
       src: piedrapapeltijera,
       href: "https://haroldjvilla.github.io/piedraPapelTijera/",
-      code: "https://github.com/haroldjvilla/piedraPapelTijera"
+      code: "https://github.com/haroldjvilla/piedraPapelTijera",
     },
     {
       id: 5,
       src: contador,
       href: "https://lucent-begonia-563c96.netlify.app/",
-      code: "https://github.com/haroldjvilla/clicksWithReactJs"
+      code: "https://github.com/haroldjvilla/clicksWithReactJs",
     },
   ];
 
@@ -44,7 +44,7 @@ function Portfolio() {
       name="portfolio"
       className="bg-gradient-to-b from-black to-gray-800 w-full text-white md:h-screen"
     >
-      <div className="max-w-screen-lg p-4 mx-auto flex items-center flex-col justify-center w-full h-full">
+      <div className="max-w-screen-lg p-4 mx-auto flex flex-col justify-center w-full h-full">
         <div className="pb-8">
           <p className="text-4xl font-bold inline border-b-4 border-gray-500">
             Portfolio
