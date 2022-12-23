@@ -19,7 +19,6 @@ function About() {
           my programming skills through a company called Prosperity where we
           learn through real-life agile environments just as the industry works.
           I have seven months of experience building and designing software.
-          Currently,
         </p>
 
         <br />
