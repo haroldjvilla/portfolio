@@ -2,6 +2,7 @@ import React from "react";
 import { FaGithub, FaLinkedin } from "react-icons/fa";
 import { HiOutlineMail } from "react-icons/hi";
 import { BsFillPersonLinesFill } from "react-icons/bs";
+import Document from '../../src/Harold_Jaramillo_Villa_i.pdf';
 
 function SocialLinks() {
   const links = [
@@ -44,7 +45,7 @@ function SocialLinks() {
           <BsFillPersonLinesFill size={30} />
         </>
       ),
-      href: "../../public/HaroldCV (3) (1).pdf",
+      href: "../../public/Harold_Jaramillo_Villa_i.pdf",
       style: "rounded-br-md",
       download: true,
     },
@@ -63,10 +64,9 @@ function SocialLinks() {
             }
           >
             <a
-              href={href}
+              href={Document}
               className="flex justify-between items-center w-full text-white"
               download={download}
-              target="_blank"
               rel="noreferrer"
             >
               {child}
