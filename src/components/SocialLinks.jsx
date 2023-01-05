@@ -48,6 +48,7 @@ function SocialLinks() {
       href: "../../public/Harold_Jaramillo_Villa_i.pdf",
       style: "rounded-br-md",
       download: true,
+      
     },
   ];
 
@@ -64,9 +65,9 @@ function SocialLinks() {
             }
           >
             <a
-              href={Document}
+              href={href}
               className="flex justify-between items-center w-full text-white"
-              download={download}
+              download='Harold_Jaramillo_Villa_i.pdf'
               rel="noreferrer"
             >
               {child}
