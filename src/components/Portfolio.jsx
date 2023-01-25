@@ -4,35 +4,42 @@ import piedrapapeltijera from "../assets/portfolio/piedrapapletijera.jpeg";
 import contador from "../assets/portfolio/contador.jpg";
 import todo from "../assets/portfolio/todo.jpg";
 import travel from "../assets/portfolio/travel.jpg";
+import openAi from "../assets/portfolio/openAi.jpg";
 
 function Portfolio() {
   const portfolio = [
     {
       id: 1,
+      src: openAi,
+      href: "https://open-ai-project-rho.vercel.app/",
+      code: "https://github.com/haroldjvilla/open-ai-project",
+    },
+    {
+      id: 2,
       src: travel,
       href: "https://otro-ten.vercel.app/",
       code: "https://github.com/haroldjvilla/travel-website/tree/master",
     },
     {
-      id: 2,
+      id: 3,
       src: todo,
       href: "https://todo-two-liart.vercel.app/",
       code: "https://github.com/haroldjvilla/todo",
     },
     {
-      id: 3,
+      id: 4,
       src: bicis,
       href: "https://haroldjvilla.github.io/curso-frontend-developer-javascript-practico/",
       code: "https://github.com/haroldjvilla/curso-frontend-developer-javascript-practico",
     },
     {
-      id: 4,
+      id: 5,
       src: piedrapapeltijera,
       href: "https://haroldjvilla.github.io/piedraPapelTijera/",
       code: "https://github.com/haroldjvilla/piedraPapelTijera",
     },
     {
-      id: 5,
+      id: 6,
       src: contador,
       href: "https://lucent-begonia-563c96.netlify.app/",
       code: "https://github.com/haroldjvilla/clicksWithReactJs",
