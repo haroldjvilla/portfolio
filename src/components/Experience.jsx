@@ -6,9 +6,11 @@ import react from "../assets/react.png";
 import javascript from "../assets/javascript.png";
 import github from "../assets/github.png";
 import tailwind from "../assets/tailwind.png";
+import nextjs from "../assets/nextjs.png";
 
 function Experience() {
   const tech = [
+    
     {
       id: 1,
       src: html,
@@ -32,6 +34,12 @@ function Experience() {
       src: react,
       title: "React",
       style: "shadow-blue-600",
+    },
+    {
+      id: 7,
+      src: nextjs,
+      title: "Next Js",
+      style: "shadow-gray-500",
     },
     {
       id: 5,
