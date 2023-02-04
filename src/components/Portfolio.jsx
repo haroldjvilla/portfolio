@@ -5,9 +5,16 @@ import contador from "../assets/portfolio/contador.jpg";
 import todo from "../assets/portfolio/todo.jpg";
 import travel from "../assets/portfolio/travel.jpg";
 import openAi from "../assets/portfolio/openAi.jpg";
+import fotoBlog from "../assets/portfolio/fotoBlog.jpg";
 
 function Portfolio() {
   const portfolio = [
+    {
+      id: 7,
+      src: fotoBlog,
+      href: "https://foto-blog.vercel.app/",
+      code: "https://github.com/haroldjvilla/fotoBlog",
+    },
     {
       id: 1,
       src: openAi,
