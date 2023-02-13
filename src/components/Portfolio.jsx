@@ -6,9 +6,15 @@ import todo from "../assets/portfolio/todo.jpg";
 import travel from "../assets/portfolio/travel.jpg";
 import openAi from "../assets/portfolio/openAi.jpg";
 import fotoBlog from "../assets/portfolio/fotoBlog.jpg";
+import Hagalo from "../assets/portfolio/hagalo.jpg";
 
 function Portfolio() {
   const portfolio = [
+    {
+      id: 7,
+      src: Hagalo,
+      href: "https://hagalo-v1.vercel.app/",
+    },
     {
       id: 7,
       src: fotoBlog,
